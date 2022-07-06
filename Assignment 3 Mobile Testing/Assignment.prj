@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>Assignment Hactiv Indrawan</name>
+   <name>Assignment 3 Mobile Reza</name>
    <tag></tag>
    <UUID>6ab7e43d-3545-4653-96d4-8c43f9dd3bf1</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\095093\Documents\GitHub\AssignmentKatalonReza\Assignment 3 Mobile Testing\Assignment.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
@@ -24,5 +25,6 @@
          </systemFolderConfiguration>
       </systemFolderList>
    </sourceContent>
+   <timeStampInProperties>true</timeStampInProperties>
    <type>MOBILE</type>
 </Project>
