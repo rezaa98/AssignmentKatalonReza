@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-respon1 = WS.sendRequest(findTestObject('Assignment API/GET API'))
+respon1 = WS.sendRequest(findTestObject('testing Assignment API/GET API'))
 
 WS.verifyResponseStatusCode(respon2, 200, FailureHandling.STOP_ON_FAILURE)
 assert respon2.getStatusCode() == 200

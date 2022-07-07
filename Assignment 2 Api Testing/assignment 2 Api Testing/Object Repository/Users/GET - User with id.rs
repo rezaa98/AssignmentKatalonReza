@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GET API</name>
+   <name>GET - User with id</name>
    <tag></tag>
-   <elementGuidId>253185f4-9f4d-42e7-9a1f-baa2936a868f</elementGuidId>
+   <elementGuidId>b0fd2207-eb2e-45ff-8ed1-759ad0dc8983</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>0</connectionTimeout>
@@ -21,12 +21,12 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
-      <webElementGuid>6ff23a62-614b-4d94-93f5-b4b742d82e00</webElementGuid>
+      <webElementGuid>d3b47c21-2ae3-4b1e-a2df-7bf2c0802310</webElementGuid>
    </httpHeaderProperties>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://jsonplaceholder.typicode.com/posts/1</restUrl>
+   <restUrl>https://jsonplaceholder.typicode.com/users/1</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -75,9 +75,23 @@ import internal.GlobalVariable as GlobalVariable
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 assert response.getStatusCode() == 200
-WS.verifyElementPropertyValue(response, 'userId', '1')
+
+
+
 WS.verifyElementPropertyValue(response, 'id', '1')
-WS.verifyElementPropertyValue(response, 'title', &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;)
-WS.verifyElementPropertyValue(response, 'body', &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;)</verificationScript>
+WS.verifyElementPropertyValue(response, 'name', 'Leanne Graham')
+WS.verifyElementPropertyValue(response, 'username', 'Bret')
+WS.verifyElementPropertyValue(response, 'email', 'Sincere@april.biz')
+WS.verifyElementPropertyValue(response, 'address.street', 'Kulas Light')
+WS.verifyElementPropertyValue(response, 'address.suite', 'Apt. 556')
+WS.verifyElementPropertyValue(response, 'address.city', 'Gwenborough')
+WS.verifyElementPropertyValue(response, 'address.zipcode', '92998-3874')
+WS.verifyElementPropertyValue(response, 'address.geo.lat', '-37.3159')
+WS.verifyElementPropertyValue(response, 'address.geo.lng', '81.1496')
+WS.verifyElementPropertyValue(response, 'phone', '1-770-736-8031 x56442')
+WS.verifyElementPropertyValue(response, 'website', 'hildegard.org')
+WS.verifyElementPropertyValue(response, 'company.name', 'Romaguera-Crona')
+WS.verifyElementPropertyValue(response, 'company.catchPhrase', 'Multi-layered client-server neural-net')
+WS.verifyElementPropertyValue(response, 'company.bs', 'harness real-time e-markets')</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
