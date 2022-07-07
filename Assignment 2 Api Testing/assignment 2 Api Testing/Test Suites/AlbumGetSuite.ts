@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>AlbumGetSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>a86c62d0-166a-4b7f-9011-22f4892911c7</testSuiteGuid>
+   <testCaseLink>
+      <guid>a6659dd3-1bfc-4ffc-9674-1b5484b26b77</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Albums/GET - Albums with id</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>2d51975f-c44d-45ad-bfb3-57bc61960b79</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/AlbumDataTest</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>2d51975f-c44d-45ad-bfb3-57bc61960b79</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userid</value>
+         <variableId>91d670ef-fab1-4df1-bc27-ee47c2f926ca</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2d51975f-c44d-45ad-bfb3-57bc61960b79</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>id</value>
+         <variableId>ee4b89a3-9bfc-4860-bab4-04e29d97f454</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2d51975f-c44d-45ad-bfb3-57bc61960b79</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>title</value>
+         <variableId>372740cc-21c2-4f05-bf37-ca505bc8ec5d</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

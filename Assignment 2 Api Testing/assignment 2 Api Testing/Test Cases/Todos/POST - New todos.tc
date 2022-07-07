@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>POST - New todos</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4a2e487-452a-4c41-9d5b-8d6ac03ccb95</testCaseGuid>
+</TestCaseEntity>

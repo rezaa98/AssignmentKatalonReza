@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GET - Todos with id</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e54626e4-e18d-4c57-b1d4-c38d55dbf37c</testCaseGuid>
+</TestCaseEntity>

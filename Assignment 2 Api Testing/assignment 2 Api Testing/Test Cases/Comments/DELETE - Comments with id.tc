@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DELETE - Comments with id</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1433dd0-e35c-4b44-af27-dfb4ca486e0d</testCaseGuid>
+</TestCaseEntity>

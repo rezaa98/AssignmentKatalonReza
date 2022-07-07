@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DELETE - Albums with id</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9bd3509-ad2b-4c03-853a-25844ba64faf</testCaseGuid>
+</TestCaseEntity>
