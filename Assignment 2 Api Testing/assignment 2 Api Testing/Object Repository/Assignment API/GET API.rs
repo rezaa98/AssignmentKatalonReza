@@ -6,7 +6,7 @@
    <elementGuidId>253185f4-9f4d-42e7-9a1f-baa2936a868f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <connectionTimeout>-1</connectionTimeout>
+   <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
@@ -21,8 +21,9 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
+      <webElementGuid>6ff23a62-614b-4d94-93f5-b4b742d82e00</webElementGuid>
    </httpHeaderProperties>
-   <maxResponseSize>-1</maxResponseSize>
+   <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
    <restUrl>https://jsonplaceholder.typicode.com/posts/1</restUrl>
@@ -32,7 +33,7 @@
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>-1</socketTimeout>
+   <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
       <defaultValue>18</defaultValue>
@@ -75,7 +76,7 @@ RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 assert response.getStatusCode() == 200
 WS.verifyElementPropertyValue(response, 'userId', '1')
-WS.verifyElementPropertyValue(response, 'id', '2')
+WS.verifyElementPropertyValue(response, 'id', '1')
 WS.verifyElementPropertyValue(response, 'title', &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;)
 WS.verifyElementPropertyValue(response, 'body', &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;)</verificationScript>
    <wsdlAddress></wsdlAddress>

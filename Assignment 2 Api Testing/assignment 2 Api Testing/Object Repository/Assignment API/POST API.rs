@@ -21,6 +21,7 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>text/plain</value>
+      <webElementGuid>987ece47-536e-4968-b881-bdc0379b3b54</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.2.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
