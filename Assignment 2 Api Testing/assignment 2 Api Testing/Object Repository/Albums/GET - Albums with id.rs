@@ -26,7 +26,7 @@
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://jsonplaceholder.typicode.com/albums/?userId=1</restUrl>
+   <restUrl>https://jsonplaceholder.typicode.com/albums</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -84,6 +84,10 @@ WS.verifyElementPropertyValue(response, 'id', 1)
 WS.verifyElementPropertyValue(response, 'title', 'quidem molestiae enim')
 
 
-</verificationScript>
+
+WS.verifyElementPropertyValue(response, '[1].title', '')
+WS.verifyElementPropertyValue(response, '[0].id', '')
+WS.verifyElementPropertyValue(response, '[1].userId', '')
+WS.verifyElementPropertyValue(response, '[3].title', '')</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
