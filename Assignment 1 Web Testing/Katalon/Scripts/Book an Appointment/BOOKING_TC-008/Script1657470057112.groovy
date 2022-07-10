@@ -58,7 +58,7 @@ if (true) {
 
     WebUI.verifyMatch('Medicare', WebUI.getText(findTestObject('Page_AppointmentConfirmation/lbl_Program')), false)
 
-    WebUI.verifyMatch('27/12/2016', WebUI.getText(findTestObject('Page_AppointmentConfirmation/lbl_VisitDate')), false)
+    WebUI.verifyMatch('10/05/2022', WebUI.getText(findTestObject('Page_AppointmentConfirmation/lbl_VisitDate')), false)
 
     WebUI.verifyMatch('test3', WebUI.getText(findTestObject('Page_AppointmentConfirmation/lbl_Comment')), false)
 }
