@@ -5,4 +5,39 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>70175457-9974-4558-94d2-ca5da239e26c</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>d37427b6-8b5f-4c2a-a3e5-f50ba8108f5a</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Login</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>d37427b6-8b5f-4c2a-a3e5-f50ba8108f5a</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>ca216a37-4b31-474c-9c42-1a03de75e9e7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d37427b6-8b5f-4c2a-a3e5-f50ba8108f5a</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>dd66b9b4-a9d1-49bb-bc50-4192867da131</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>ca216a37-4b31-474c-9c42-1a03de75e9e7</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'ThisIsNotAPassword'</defaultValue>
+      <description></description>
+      <id>dd66b9b4-a9d1-49bb-bc50-4192867da131</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
 </TestCaseEntity>

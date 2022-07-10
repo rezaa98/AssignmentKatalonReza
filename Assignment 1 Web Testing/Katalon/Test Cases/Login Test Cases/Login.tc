@@ -12,6 +12,18 @@ Expected result:
    <tag></tag>
    <comment></comment>
    <testCaseGuid>dc59940a-fb78-4da3-82c6-7ff4bffcfd97</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>19fe967b-1564-4705-aff2-848d45b84489</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>75fa3d79-7e92-4d55-b359-f7c9493ea288</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'John Doe'</defaultValue>
       <description></description>

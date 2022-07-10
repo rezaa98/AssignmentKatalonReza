@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>5</initValue>
+      <initValue>7</initValue>
       <name>G_ShortTimeOut</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
