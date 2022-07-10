@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
-   <name>Login_TC-001</name>
+   <description>Verify if users can login successful. 
+
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Appointment' section is displayed after successful login</description>
+   <name>LOGIN_TC-001</name>
    <tag></tag>
-   <comment></comment>
-   <testCaseGuid>70175457-9974-4558-94d2-ca5da239e26c</testCaseGuid>
+   <comment>Story: Login to CURA system
+Given that the user has valid login information
+When he logins to CURA system
+Then he should be able to login successfully</comment>
+   <testCaseGuid>29b012f6-ff93-49be-8f26-a6117e25bec0</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>d37427b6-8b5f-4c2a-a3e5-f50ba8108f5a</id>
+      <id>1be7f04d-3a78-4a71-8a79-b690b86ab8e7</id>
       <iterationEntity>
          <iterationType>ALL</iterationType>
          <value></value>
@@ -15,28 +26,28 @@
       <testDataId>Data Files/Login</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId>d37427b6-8b5f-4c2a-a3e5-f50ba8108f5a</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>Username</value>
-      <variableId>ca216a37-4b31-474c-9c42-1a03de75e9e7</variableId>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>54c52db4-138a-4fa5-910c-46eddb76950b</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>d37427b6-8b5f-4c2a-a3e5-f50ba8108f5a</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>Password</value>
-      <variableId>dd66b9b4-a9d1-49bb-bc50-4192867da131</variableId>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a168f70a-7989-466d-8e65-629e266caba9</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'John Doe'</defaultValue>
       <description></description>
-      <id>ca216a37-4b31-474c-9c42-1a03de75e9e7</id>
+      <id>54c52db4-138a-4fa5-910c-46eddb76950b</id>
       <masked>false</masked>
       <name>Username</name>
    </variable>
    <variable>
       <defaultValue>'ThisIsNotAPassword'</defaultValue>
       <description></description>
-      <id>dd66b9b4-a9d1-49bb-bc50-4192867da131</id>
+      <id>a168f70a-7989-466d-8e65-629e266caba9</id>
       <masked>false</masked>
       <name>Password</name>
    </variable>
