@@ -51,7 +51,7 @@ WebUI.verifyTextPresent('Make Appointment', false)
 WebUI.comment('Then he should not be able to book a new appointment')
 
 if (true) {
-    WebUI.verifyMatch('Hongkong CURA Healthcare Center', WebUI.getText(findTestObject('Page_AppointmentConfirmation/lbl_Facility')), 
+    WebUI.verifyMatch('Seoul CURA Healthcare Center', WebUI.getText(findTestObject('Page_AppointmentConfirmation/lbl_Facility')), 
         false)
 
     WebUI.verifyMatch('Yes', WebUI.getText(findTestObject('Page_AppointmentConfirmation/lbl_HospitalReadmission')), false)
