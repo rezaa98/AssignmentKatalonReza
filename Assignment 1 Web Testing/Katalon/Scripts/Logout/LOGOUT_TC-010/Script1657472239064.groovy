@@ -17,27 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.comment('Logout Test Case')
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.comment('Given that the user has logged out into their account')
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.openBrowser(GlobalVariable.G_SiteURL)
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service/input_Username_username'))
-
-WebUI.doubleClick(findTestObject('Page_CURA Healthcare Service/input_Demo account_form-control'))
-
-WebUI.doubleClick(findTestObject('Page_CURA Healthcare Service/input_Demo account_form-control'))
-
-WebUI.click(findTestObject('Page_CURA Healthcare Service/input_Demo account_form-control'))
-
-WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
-
-WebUI.click(findTestObject('Page_CURA Healthcare Service/div_Demo account_form-group'))
-
-WebUI.setEncryptedText(findTestObject('Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
-
-WebUI.click(findTestObject('Page_CURA Healthcare Service/button_Login'))
+WebUI.callTestCase(findTestCase('Login Test Cases/Login'), [('Username') : 'John Doe', ('Password') : 'ThisIsNotAPassword'], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Logout/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
 
