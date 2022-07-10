@@ -12,4 +12,4 @@
 * Test Suite = 1 Test Suite
 
 ## Results
-<img src="https://github.com/rezaa98/AssignmentKatalonReza/blob/main/Assignment%201%20Web%20Testing/IMG/Report.jpeg" width="850">
+<img src="https://github.com/rezaa98/AssignmentKatalonReza/blob/main/Assignment%201%20Web%20Testing/IMG/Report.jpeg" width="1080">
