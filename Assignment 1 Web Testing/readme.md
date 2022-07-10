@@ -1,4 +1,4 @@
-# Assignment 1 Web Testing CURA Webhealth APP
+# Assignment 1 Web Testing CURA Webhealth APP_KSAT006ONL015
 * Nama : Reza Yusuf Maulana
 * Kode Peserta : KSAT006ONL015
 
@@ -12,3 +12,4 @@
 * Test Suite = 1 Test Suite
 
 ## Results
+<img src="https://github.com/rezaa98/AssignmentKatalonReza/blob/main/Assignment%201%20Web%20Testing/IMG/Report.jpeg" width="450">
