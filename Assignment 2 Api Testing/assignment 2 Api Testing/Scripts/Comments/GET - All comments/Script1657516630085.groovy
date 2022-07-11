@@ -18,11 +18,17 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import groovy.json.JsonSlurper as JsonSlurper
 
+WebUI.comment('Do Get Method for Endpoint All Comments')
+
 response1 = WS.sendRequest(findTestObject('Comments/GET - All comments'))
+
+WebUI.comment('Initiate JSon Slurper')
 
 def slurper = new JsonSlurper()
 
 def result = slurper.parseText(response1.getResponseBodyContent())
+
+WebUI.comment('Do Looping')
 
 for (int i = 0; i < result.size(); i++) {
     WS.verifyElementPropertyValue(response1, ('[' + i) + '].postId', result[i].postId)

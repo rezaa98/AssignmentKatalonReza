@@ -17,11 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.comment('Do Get Method for Endpoint Posts with ID')
+
 response1 = WS.sendRequest(findTestObject('Posts/GET - Posts with id'))
 
+WebUI.comment('Verify the output is same as the Request')
+
 WS.verifyElementPropertyValue(response1, 'userId', '1')
+
 WS.verifyElementPropertyValue(response1, 'id', '1')
+
 WS.verifyElementPropertyValue(response1, 'title', 'sunt aut facere repellat provident occaecati excepturi optio reprehenderit')
+
 WS.verifyElementPropertyValue(response1, 'body', 'quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto')
 
-  

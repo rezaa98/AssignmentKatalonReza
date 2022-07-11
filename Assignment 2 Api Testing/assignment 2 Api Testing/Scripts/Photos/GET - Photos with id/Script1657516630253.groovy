@@ -17,8 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.comment('Do Get Method for Endpoint Photos with ID')
+
 respon1 = WS.sendRequest(findTestObject('Photos/GET - Photos with id', [('age') : 18, ('gender') : 'MALE', ('username') : 'mimi'
             , ('password') : '123456789']))
+
+WebUI.comment('Verify the output is same as the Request')
 
 WS.verifyResponseStatusCode(respon1, 200, FailureHandling.STOP_ON_FAILURE)
 
