@@ -3,7 +3,7 @@
    <description></description>
    <name>GET - Photos with id</name>
    <tag></tag>
-   <elementGuidId>e4a16552-342c-4200-9ef1-cea9a4f4e6fe</elementGuidId>
+   <elementGuidId>d4f3e93d-cd66-4e1a-86f7-20f5adb88d35</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>0</connectionTimeout>

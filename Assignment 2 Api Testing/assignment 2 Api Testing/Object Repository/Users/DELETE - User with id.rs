@@ -3,7 +3,7 @@
    <description></description>
    <name>DELETE - User with id</name>
    <tag></tag>
-   <elementGuidId>3b1ad25f-e3d4-422b-a2e7-934f9c792d7b</elementGuidId>
+   <elementGuidId>ce7405af-88de-4df8-b393-684d70352b26</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>0</connectionTimeout>

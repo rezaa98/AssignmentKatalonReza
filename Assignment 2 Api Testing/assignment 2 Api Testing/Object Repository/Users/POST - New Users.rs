@@ -3,7 +3,7 @@
    <description></description>
    <name>POST - New Users</name>
    <tag></tag>
-   <elementGuidId>2028c74d-07b3-4adb-bbba-2495ccaa7609</elementGuidId>
+   <elementGuidId>7d4c3cd2-f7fd-4257-ab55-0f8ef8010804</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>0</connectionTimeout>

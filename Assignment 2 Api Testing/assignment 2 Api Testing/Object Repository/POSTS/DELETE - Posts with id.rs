@@ -3,7 +3,7 @@
    <description></description>
    <name>DELETE - Posts with id</name>
    <tag></tag>
-   <elementGuidId>93665a86-55ff-47ef-8018-2d0c0200d804</elementGuidId>
+   <elementGuidId>5a971d57-e52f-49cd-8de9-5d0c6af6d295</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>

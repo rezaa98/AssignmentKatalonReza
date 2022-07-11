@@ -4,44 +4,5 @@
    <name>GET - Albums with id</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c256c82e-7162-432a-98b8-c21645c36dfa</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>91d670ef-fab1-4df1-bc27-ee47c2f926ca</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>ee4b89a3-9bfc-4860-bab4-04e29d97f454</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>372740cc-21c2-4f05-bf37-ca505bc8ec5d</variableId>
-   </variableLinks>
-   <variable>
-      <defaultValue>1</defaultValue>
-      <description></description>
-      <id>91d670ef-fab1-4df1-bc27-ee47c2f926ca</id>
-      <masked>true</masked>
-      <name>thisUserId</name>
-   </variable>
-   <variable>
-      <defaultValue>1</defaultValue>
-      <description></description>
-      <id>ee4b89a3-9bfc-4860-bab4-04e29d97f454</id>
-      <masked>false</masked>
-      <name>thisId</name>
-   </variable>
-   <variable>
-      <defaultValue>'quidem molestiae enim'</defaultValue>
-      <description></description>
-      <id>372740cc-21c2-4f05-bf37-ca505bc8ec5d</id>
-      <masked>false</masked>
-      <name>thisTitle</name>
-   </variable>
+   <testCaseGuid>4cd9fd0b-e2d0-45c4-ba83-b9d531ceaf49</testCaseGuid>
 </TestCaseEntity>

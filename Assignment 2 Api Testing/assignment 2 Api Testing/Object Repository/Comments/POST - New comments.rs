@@ -3,7 +3,7 @@
    <description></description>
    <name>POST - New comments</name>
    <tag></tag>
-   <elementGuidId>88b1ba91-9f1f-4943-bbf8-97df971da847</elementGuidId>
+   <elementGuidId>02b622e3-516e-4f77-af96-515df48f1256</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>0</connectionTimeout>
