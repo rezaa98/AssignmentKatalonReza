@@ -19,47 +19,73 @@ import org.openqa.selenium.Keys as Keys
 
 //String appFile = GlobalVariable.androidAPP
 //Mobile.startApplication(appFile, true)
-Mobile.startExistingApplication(GlobalVariable.bundleID)
-Mobile.waitForElementPresent(findTestObject('Object Repository/Cek Profile/Verify Screen - E-Commerce Android App'), GlobalVariable.timeOUT, FailureHandling.STOP_ON_FAILURE)
+WebUI.comment('Start Aplication Ecommerce Android')
 
-if (Mobile.verifyElementNotExist(findTestObject('Object Repository/Cek Profile/Verify Screen - E-Commerce Android App'), GlobalVariable.timeOUT, FailureHandling.OPTIONAL)) {
-	Mobile.tap(findTestObject('Object Repository/Checkout/Button Back'), GlobalVariable.timeOUT)
+Mobile.startExistingApplication(GlobalVariable.bundleID)
+
+Mobile.waitForElementPresent(findTestObject('Object Repository/Cek Profile/Verify Screen - E-Commerce Android App'), GlobalVariable.timeOUT, 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.comment('Run If statement')
+
+if (Mobile.verifyElementNotExist(findTestObject('Object Repository/Cek Profile/Verify Screen - E-Commerce Android App'), 
+    GlobalVariable.timeOUT, FailureHandling.OPTIONAL)) {
+    Mobile.tap(findTestObject('Object Repository/Checkout/Button Back'), GlobalVariable.timeOUT)
 }
 
 Mobile.tap(findTestObject('Object Repository/Cek Profile/android.widget.ImageView'), GlobalVariable.timeOUT)
-Mobile.verifyElementVisible(findTestObject('Object Repository/Cek Profile/VERIF SCREEN - Profile'), GlobalVariable.timeOUT, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.comment('Check if element is visible or not')
+
+Mobile.verifyElementVisible(findTestObject('Object Repository/Cek Profile/VERIF SCREEN - Profile'), GlobalVariable.timeOUT, 
+    FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Cek Profile/MENU - ORDER HISTORY'), GlobalVariable.timeOUT)
+
 Mobile.delay(GlobalVariable.timeOUT)
-Mobile.verifyElementVisible(findTestObject('Object Repository/Cek Profile/VERIF SCREEN - Order History'), GlobalVariable.timeOUT, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.verifyElementVisible(findTestObject('Object Repository/Cek Profile/VERIF SCREEN - Order History'), GlobalVariable.timeOUT, 
+    FailureHandling.STOP_ON_FAILURE)
 
 device_Height = Mobile.getDeviceHeight()
+
 device_Width = Mobile.getDeviceWidth()
 
-int pointH = device_Height/2
-int pointW = device_Width/2
+int pointH = device_Height / 2
+
+int pointW = device_Width / 2
+
+WebUI.comment('Run if Statement')
 
 // akan menjalankan fungsi IF ketika order history kosong
-	if (Mobile.verifyElementNotExist(findTestObject('Object Repository/Cek Profile/ORDER HISTORY 1'), GlobalVariable.timeOUT, FailureHandling.OPTIONAL)) {
-		Mobile.verifyElementExist(findTestObject('Object Repository/Cek Profile/ORDER HISTORY - ZONK IMG'), GlobalVariable.timeOUT, FailureHandling.CONTINUE_ON_FAILURE)
-		Mobile.verifyElementExist(findTestObject('Object Repository/Cek Profile/ORDER HISTORY - ZONK TEXT'), GlobalVariable.timeOUT, FailureHandling.CONTINUE_ON_FAILURE)
-	}
-// akan menjalankan fungsi else if ketika order history berisi 1
-	else if (Mobile.verifyElementNotExist(findTestObject('Object Repository/Cek Profile/ORDER HISTORY 2'), GlobalVariable.timeOUT, FailureHandling.OPTIONAL)) { 
-		Mobile.verifyElementExist(findTestObject('Object Repository/Cek Profile/ORDER HISTORY 1'), GlobalVariable.timeOUT)
-		Mobile.tap(findTestObject('Object Repository/Cek Profile/ORDER HISTORY 1'), GlobalVariable.timeOUT)
-		Mobile.verifyElementExist(findTestObject('Checkout/VERIF TANGGAL ORDER - Tanggal Order'), GlobalVariable.timeOUT, FailureHandling.CONTINUE_ON_FAILURE)
-		Mobile.tapAtPosition(pointW, pointH)
-	}
-//akan menjalankan fungsi else ketika oder history lebih dari 1
-	else {
-		Mobile.verifyElementExist(findTestObject('Object Repository/Cek Profile/ORDER HISTORY 1'), GlobalVariable.timeOUT)
-		Mobile.verifyElementExist(findTestObject('Object Repository/Cek Profile/ORDER HISTORY 2'), GlobalVariable.timeOUT)
-		Mobile.tap(findTestObject('Object Repository/Cek Profile/ORDER HISTORY 1'), GlobalVariable.timeOUT)
-		Mobile.verifyElementExist(findTestObject('Checkout/VERIF TANGGAL ORDER - Tanggal Order'), GlobalVariable.timeOUT, FailureHandling.CONTINUE_ON_FAILURE)
-		Mobile.tapAtPosition(pointW, pointH)
-	}
+if (Mobile.verifyElementNotExist(findTestObject('Object Repository/Cek Profile/ORDER HISTORY 1'), GlobalVariable.timeOUT, 
+    FailureHandling.OPTIONAL)) {
+    Mobile.verifyElementExist(findTestObject('Object Repository/Cek Profile/ORDER HISTORY - ZONK IMG'), GlobalVariable.timeOUT, 
+        FailureHandling.CONTINUE_ON_FAILURE)
+
+    Mobile.verifyElementExist(findTestObject('Object Repository/Cek Profile/ORDER HISTORY - ZONK TEXT'), GlobalVariable.timeOUT, 
+        FailureHandling.CONTINUE_ON_FAILURE) // akan menjalankan fungsi else if ketika order history berisi 1
+    //akan menjalankan fungsi else ketika oder history lebih dari 1
+} else if (Mobile.verifyElementNotExist(findTestObject('Object Repository/Cek Profile/ORDER HISTORY 2'), GlobalVariable.timeOUT, 
+    FailureHandling.OPTIONAL)) {
+    Mobile.verifyElementExist(findTestObject('Object Repository/Cek Profile/ORDER HISTORY 1'), GlobalVariable.timeOUT)
+
+    Mobile.tap(findTestObject('Object Repository/Cek Profile/ORDER HISTORY 1'), GlobalVariable.timeOUT)
+
+    Mobile.verifyElementExist(findTestObject('Checkout/VERIF TANGGAL ORDER - Tanggal Order'), GlobalVariable.timeOUT, FailureHandling.CONTINUE_ON_FAILURE)
+
+    Mobile.tapAtPosition(pointW, pointH)
+} else {
+    Mobile.verifyElementExist(findTestObject('Object Repository/Cek Profile/ORDER HISTORY 1'), GlobalVariable.timeOUT)
+
+    Mobile.verifyElementExist(findTestObject('Object Repository/Cek Profile/ORDER HISTORY 2'), GlobalVariable.timeOUT)
+
+    Mobile.tap(findTestObject('Object Repository/Cek Profile/ORDER HISTORY 1'), GlobalVariable.timeOUT)
+
+    Mobile.verifyElementExist(findTestObject('Checkout/VERIF TANGGAL ORDER - Tanggal Order'), GlobalVariable.timeOUT, FailureHandling.CONTINUE_ON_FAILURE)
+
+    Mobile.tapAtPosition(pointW, pointH)
+}
 
 Mobile.tap(findTestObject('Object Repository/Cek Profile/android.widget.ImageButton'), GlobalVariable.timeOUT)
 
-//Mobile.closeApplication()
