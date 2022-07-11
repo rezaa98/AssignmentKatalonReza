@@ -6,9 +6,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>67673c34-62d1-4b6d-bdb3-7c1772f38ec1</dataFileGUID>
-   <dataSourceUrl>C:\Users\095093\Documents\GitHub\AssignmentKatalonReza\Assignment 3 Mobile Testing\Assignment3MobileTesting\Active Data\Document.xlsx</dataSourceUrl>
+   <dataSourceUrl>Active Data/Document.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>prof</sheetName>
