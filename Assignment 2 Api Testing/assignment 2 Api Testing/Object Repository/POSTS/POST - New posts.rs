@@ -3,7 +3,7 @@
    <description></description>
    <name>POST - New posts</name>
    <tag></tag>
-   <elementGuidId>51f81b1d-a4f3-4cc0-9d0a-4b9c4a54cfaa</elementGuidId>
+   <elementGuidId>e0063dce-114e-421a-97c8-6d498a9d2c90</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>0</connectionTimeout>

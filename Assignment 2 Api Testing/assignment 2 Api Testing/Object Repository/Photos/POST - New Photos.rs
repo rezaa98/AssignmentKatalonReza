@@ -3,7 +3,7 @@
    <description></description>
    <name>POST - New Photos</name>
    <tag></tag>
-   <elementGuidId>7aaa4361-cf89-44cd-a3a1-7fb51f0eb4a8</elementGuidId>
+   <elementGuidId>b0532980-d9e0-4ea9-8c42-12684525dfad</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>0</connectionTimeout>

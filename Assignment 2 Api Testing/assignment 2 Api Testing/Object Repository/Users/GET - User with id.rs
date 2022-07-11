@@ -3,7 +3,7 @@
    <description></description>
    <name>GET - User with id</name>
    <tag></tag>
-   <elementGuidId>b0fd2207-eb2e-45ff-8ed1-759ad0dc8983</elementGuidId>
+   <elementGuidId>1aed612a-36b7-4f2c-84e1-46c482689e7b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>0</connectionTimeout>

@@ -6,6 +6,7 @@
    <UUID>4ff1ec90-b3b9-4a08-9e91-da307a1cbc0d</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\rezay\Documents\project Amazon\react-portfolio-master\AssignmentKatalonReza\Assignment 2 Api Testing\assignment 2 Api Testing\API Test.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
@@ -24,5 +25,6 @@
          </systemFolderConfiguration>
       </systemFolderList>
    </sourceContent>
+   <timeStampInProperties>true</timeStampInProperties>
    <type>WEBSERVICE</type>
 </Project>

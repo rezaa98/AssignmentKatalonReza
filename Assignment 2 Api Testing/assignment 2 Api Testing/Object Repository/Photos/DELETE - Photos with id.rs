@@ -3,7 +3,7 @@
    <description></description>
    <name>DELETE - Photos with id</name>
    <tag></tag>
-   <elementGuidId>77d93d3a-9443-4004-bd74-122119f56d1b</elementGuidId>
+   <elementGuidId>449cf8ac-f7aa-4aed-8b7a-e947d39cebd3</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>0</connectionTimeout>

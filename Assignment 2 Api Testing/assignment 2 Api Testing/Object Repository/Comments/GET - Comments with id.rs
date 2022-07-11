@@ -3,7 +3,7 @@
    <description></description>
    <name>GET - Comments with id</name>
    <tag></tag>
-   <elementGuidId>070d9719-d18a-4244-a7dc-4dbb7a108ec6</elementGuidId>
+   <elementGuidId>a0df7877-7595-4cdc-b9f5-5c187dab4cce</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>0</connectionTimeout>

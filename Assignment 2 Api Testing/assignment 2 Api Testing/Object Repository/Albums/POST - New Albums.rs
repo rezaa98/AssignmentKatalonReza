@@ -3,7 +3,7 @@
    <description></description>
    <name>POST - New Albums</name>
    <tag></tag>
-   <elementGuidId>b95a48fe-a27b-4447-bbf8-69aad1ec8c38</elementGuidId>
+   <elementGuidId>dcc5ff80-1455-4914-ab8a-eb8e7fbfa464</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>0</connectionTimeout>

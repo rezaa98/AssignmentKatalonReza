@@ -3,7 +3,7 @@
    <description></description>
    <name>DELETE - Todos with id</name>
    <tag></tag>
-   <elementGuidId>0bee0907-30b7-40aa-88c4-997e6baae804</elementGuidId>
+   <elementGuidId>0b6c87c9-7937-415d-9635-0ad245f7beed</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>0</connectionTimeout>

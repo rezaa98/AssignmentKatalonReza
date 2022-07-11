@@ -3,7 +3,7 @@
    <description></description>
    <name>DELETE - Comments with id</name>
    <tag></tag>
-   <elementGuidId>9b5a3654-714a-452a-bb49-b2d43df7fd0c</elementGuidId>
+   <elementGuidId>ebee35d4-f62c-40a3-b42a-12f48e3ee58b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>0</connectionTimeout>

@@ -3,7 +3,7 @@
    <description></description>
    <name>DELETE - Albums with id</name>
    <tag></tag>
-   <elementGuidId>2e0b2a4f-403d-4060-b831-0a6204e781f9</elementGuidId>
+   <elementGuidId>15b96ec0-f5fa-498a-bcd9-e45aa411c9a2</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>0</connectionTimeout>
