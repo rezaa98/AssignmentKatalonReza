@@ -18,6 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.comment('Story: Book an appointment')
 
@@ -38,11 +41,11 @@ if (true) {
     WebUI.check(findTestObject('Page_CuraAppointment/chk_Readmission'))
 }
 
-WebUI.comment('When he fills in valid information in Appointment page')
+WebUI.comment('When he not fills all valid information in Appointment page')
 
 WebUI.click(findTestObject('Page_CuraAppointment/btn_BookAppointment'))
 
-WebUI.verifyTextPresent('Make Appointment', false)
+WebUI.verifyTextPresent('Make Appointment', false, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.comment('Then he should not be able to book a new appointment')
 

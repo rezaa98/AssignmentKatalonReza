@@ -46,7 +46,7 @@ WebUI.comment('When he fills in valid information in Appointment page')
 
 WebUI.click(findTestObject('Page_CuraAppointment/btn_BookAppointment'))
 
-WebUI.verifyTextPresent('Make Appointment', false)
+WebUI.verifyAlertPresent(1)
 
 WebUI.comment('Then he should not be able to book a new appointment')
 
