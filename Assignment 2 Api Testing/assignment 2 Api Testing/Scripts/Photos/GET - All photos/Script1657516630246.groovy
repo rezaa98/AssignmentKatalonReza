@@ -18,19 +18,27 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import groovy.json.JsonSlurper as JsonSlurper
 
-
+WebUI.comment('Do Get Method for Endpoint All Photos')
 
 response1 = WS.sendRequest(findTestObject('Photos/GET - All photos'))
+
+WebUI.comment('Initiate JSon Slurper')
 
 def slurper = new JsonSlurper()
 
 def result = slurper.parseText(response1.getResponseBodyContent())
 
-for(int i=0; i < 200; i++) {
-	
-	WS.verifyElementPropertyValue(response1, '[' + i + '].albumId', result[i].albumId)
-	WS.verifyElementPropertyValue(response1, '[' + i + '].id', result[i].id)
-	WS.verifyElementPropertyValue(response1, '[' + i + '].title', result[i].title)
-	WS.verifyElementPropertyValue(response1, '[' + i + '].url', result[i].url)
-	WS.verifyElementPropertyValue(response1, '[' + i + '].thumbnailUrl', result[i].thumbnailUrl)
+WebUI.comment('Do Looping')
+
+for (int i = 0; i < 200; i++) {
+    WS.verifyElementPropertyValue(response1, ('[' + i) + '].albumId', result[i].albumId)
+
+    WS.verifyElementPropertyValue(response1, ('[' + i) + '].id', result[i].id)
+
+    WS.verifyElementPropertyValue(response1, ('[' + i) + '].title', result[i].title)
+
+    WS.verifyElementPropertyValue(response1, ('[' + i) + '].url', result[i].url)
+
+    WS.verifyElementPropertyValue(response1, ('[' + i) + '].thumbnailUrl', result[i].thumbnailUrl)
 }
+

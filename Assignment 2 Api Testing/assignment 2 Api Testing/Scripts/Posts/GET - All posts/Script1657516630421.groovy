@@ -18,18 +18,25 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import groovy.json.JsonSlurper as JsonSlurper
 
-
+WebUI.comment('Do Get Method for Endpoint All Posts')
 
 response1 = WS.sendRequest(findTestObject('Posts/GET - All posts'))
+
+WebUI.comment('Initiate JSon Slurper')
 
 def slurper = new JsonSlurper()
 
 def result = slurper.parseText(response1.getResponseBodyContent())
 
-for(int i=0; i < result.size(); i++) {
-	
-	WS.verifyElementPropertyValue(response1, '[' + i + '].userId', result[i].userId)
-	WS.verifyElementPropertyValue(response1, '[' + i + '].id', result[i].id)
-	WS.verifyElementPropertyValue(response1, '[' + i + '].title', result[i].title)
-	WS.verifyElementPropertyValue(response1, '[' + i + '].body', result[i].body)	
+WebUI.comment('Do Looping')
+
+for (int i = 0; i < result.size(); i++) {
+    WS.verifyElementPropertyValue(response1, ('[' + i) + '].userId', result[i].userId)
+
+    WS.verifyElementPropertyValue(response1, ('[' + i) + '].id', result[i].id)
+
+    WS.verifyElementPropertyValue(response1, ('[' + i) + '].title', result[i].title)
+
+    WS.verifyElementPropertyValue(response1, ('[' + i) + '].body', result[i].body)
 }
+

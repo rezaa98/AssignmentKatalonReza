@@ -17,7 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.comment('Do Post Method for make a New Photos')
+
 respon2 = WS.sendRequest(findTestObject('Photos/POST - New Photos'))
+
+WebUI.comment('Verify the output id is more than default')
 
 WS.verifyResponseStatusCode(respon2, 201, FailureHandling.STOP_ON_FAILURE)
 

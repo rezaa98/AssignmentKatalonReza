@@ -17,25 +17,42 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.comment('Do Get Method for Endpoint Users with ID')
+
 response = WS.sendRequest(findTestObject('Users/GET - User with id', [('age') : 18, ('gender') : 'MALE', ('username') : 'mimi'
             , ('password') : '123456789']))
 
+WebUI.comment('Verify the output is same as the Request')
 
 assert response.getStatusCode() == 200
 
-
 WS.verifyElementPropertyValue(response, 'id', '1')
+
 WS.verifyElementPropertyValue(response, 'name', 'Leanne Graham')
+
 WS.verifyElementPropertyValue(response, 'username', 'Bret')
+
 WS.verifyElementPropertyValue(response, 'email', 'Sincere@april.biz')
+
 WS.verifyElementPropertyValue(response, 'address.street', 'Kulas Light')
+
 WS.verifyElementPropertyValue(response, 'address.suite', 'Apt. 556')
+
 WS.verifyElementPropertyValue(response, 'address.city', 'Gwenborough')
+
 WS.verifyElementPropertyValue(response, 'address.zipcode', '92998-3874')
+
 WS.verifyElementPropertyValue(response, 'address.geo.lat', '-37.3159')
+
 WS.verifyElementPropertyValue(response, 'address.geo.lng', '81.1496')
+
 WS.verifyElementPropertyValue(response, 'phone', '1-770-736-8031 x56442')
+
 WS.verifyElementPropertyValue(response, 'website', 'hildegard.org')
+
 WS.verifyElementPropertyValue(response, 'company.name', 'Romaguera-Crona')
+
 WS.verifyElementPropertyValue(response, 'company.catchPhrase', 'Multi-layered client-server neural-net')
+
 WS.verifyElementPropertyValue(response, 'company.bs', 'harness real-time e-markets')
+
