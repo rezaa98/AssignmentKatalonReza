@@ -1,4 +1,10 @@
-* Testing yang dilakukan adalah testing untuk menjalankan beberapa method API kepada URL API yang telah ditentukan.
+# Assignment 2 API Testing JSONPlaceholder_KSAT006ONL015
+
+- Nama : Reza Yusuf Maulana
+- Kode Peserta : KSAT006ONL015
+
+## Jenis Method
+Testing yang dilakukan adalah testing untuk menjalankan beberapa method API kepada URL API yang telah ditentukan.
 Method-methodnya meliputi, GET, POST, PUT, dan DELETE.
 
     - GET
