@@ -18,6 +18,5 @@
 
 ## Results
 
-<img src="https://github.com/rezaa98/AssignmentKatalonReza/blob/main/Assignment%201%20Web%20Testing/IMG/Report.jpeg" width="1080">
-<img src="https://github.com/rezaa98/AssignmentKatalonReza/blob/main/Assignment%201%20Web%20Testing/IMG/ErrorTC08.png" width="1080">
-<img src="https://github.com/rezaa98/AssignmentKatalonReza/blob/main/Assignment%201%20Web%20Testing/IMG/Error.png" width="1080">
+<img src="https://github.com/rezaa98/AssignmentKatalonReza/blob/main/Assignment%202%20Api%20Testing/IMG/Details.jpeg" width="1000">
+<img src="https://github.com/rezaa98/AssignmentKatalonReza/blob/main/Assignment%202%20Api%20Testing/IMG/Reports.jpeg" width="1000">
