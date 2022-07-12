@@ -19,30 +19,47 @@ import org.openqa.selenium.Keys as Keys
 
 //String appFile = GlobalVariable.androidAPP
 //Mobile.startApplication(appFile, true)
-Mobile.startExistingApplication(GlobalVariable.bundleID)
-Mobile.waitForElementPresent(findTestObject('Object Repository/Cek Profile/Verify Screen - E-Commerce Android App'), GlobalVariable.timeOUT, FailureHandling.STOP_ON_FAILURE)
+WebUI.comment('Start Aplication Ecommerce Android')
 
-if (Mobile.verifyElementNotExist(findTestObject('Object Repository/Cek Profile/Verify Screen - E-Commerce Android App'), GlobalVariable.timeOUT, FailureHandling.OPTIONAL)) {
-	Mobile.tap(findTestObject('Object Repository/Checkout/Button Back'), GlobalVariable.timeOUT)
+Mobile.startExistingApplication(GlobalVariable.bundleID)
+
+Mobile.waitForElementPresent(findTestObject('Object Repository/Cek Profile/Verify Screen - E-Commerce Android App'), GlobalVariable.timeOUT, 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.comment('Run If statement')
+
+if (Mobile.verifyElementNotExist(findTestObject('Object Repository/Cek Profile/Verify Screen - E-Commerce Android App'), 
+    GlobalVariable.timeOUT, FailureHandling.OPTIONAL)) {
+    Mobile.tap(findTestObject('Object Repository/Checkout/Button Back'), GlobalVariable.timeOUT)
 }
 
 Mobile.tap(findTestObject('Object Repository/Cek Help/Button Menu Help'), GlobalVariable.timeOUT)
+
 Mobile.verifyElementVisible(findTestObject('Object Repository/Cek Help/VERIFY SCREEN - Help'), GlobalVariable.timeOUT, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Cek Help/MENU HELP - Profile'), GlobalVariable.timeOUT)
-Mobile.verifyElementVisible(findTestObject('Object Repository/Cek Help/VERIFY SCREEN - Profile'), GlobalVariable.timeOUT, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.verifyElementVisible(findTestObject('Object Repository/Cek Help/VERIFY SCREEN - Profile'), GlobalVariable.timeOUT, 
+    FailureHandling.STOP_ON_FAILURE)
+
 Mobile.verifyElementExist(findTestObject('Object Repository/Cek Help/CONTENT - Profile'), GlobalVariable.timeOUT, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Cek Help/BUTTON BACK'), GlobalVariable.timeOUT)
+
 Mobile.verifyElementVisible(findTestObject('Object Repository/Cek Help/VERIFY SCREEN - Help'), GlobalVariable.timeOUT, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Cek Help/MENU HELP - Contact us'), GlobalVariable.timeOUT)
-Mobile.verifyElementVisible(findTestObject('Object Repository/Cek Help/VERIFY SCREEN - Contact us'), GlobalVariable.timeOUT, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.verifyElementVisible(findTestObject('Object Repository/Cek Help/VERIFY SCREEN - Contact us'), GlobalVariable.timeOUT, 
+    FailureHandling.STOP_ON_FAILURE)
+
 Mobile.verifyElementExist(findTestObject('Object Repository/Cek Help/CONTENT1 - Contact US'), GlobalVariable.timeOUT, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.verifyElementExist(findTestObject('Object Repository/Cek Help/CONTENT3 - Contact US'), GlobalVariable.timeOUT, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.verifyElementExist(findTestObject('Object Repository/Cek Help/CONTENT2 - Contact US'), GlobalVariable.timeOUT, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Cek Help/BUTTON BACK'), GlobalVariable.timeOUT)
+
 Mobile.verifyElementVisible(findTestObject('Object Repository/Cek Help/VERIFY SCREEN - Help'), GlobalVariable.timeOUT, FailureHandling.STOP_ON_FAILURE)
 
-//Mobile.closeApplication()

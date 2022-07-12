@@ -64,8 +64,8 @@ if (Mobile.verifyElementNotExist(findTestObject('Object Repository/Cek Profile/O
         FailureHandling.CONTINUE_ON_FAILURE)
 
     Mobile.verifyElementExist(findTestObject('Object Repository/Cek Profile/ORDER HISTORY - ZONK TEXT'), GlobalVariable.timeOUT, 
-        FailureHandling.CONTINUE_ON_FAILURE) // akan menjalankan fungsi else if ketika order history berisi 1
-    //akan menjalankan fungsi else ketika oder history lebih dari 1
+        FailureHandling.CONTINUE_ON_FAILURE // akan menjalankan fungsi else if ketika order history berisi 1
+        ) //akan menjalankan fungsi else ketika oder history lebih dari 1
 } else if (Mobile.verifyElementNotExist(findTestObject('Object Repository/Cek Profile/ORDER HISTORY 2'), GlobalVariable.timeOUT, 
     FailureHandling.OPTIONAL)) {
     Mobile.verifyElementExist(findTestObject('Object Repository/Cek Profile/ORDER HISTORY 1'), GlobalVariable.timeOUT)

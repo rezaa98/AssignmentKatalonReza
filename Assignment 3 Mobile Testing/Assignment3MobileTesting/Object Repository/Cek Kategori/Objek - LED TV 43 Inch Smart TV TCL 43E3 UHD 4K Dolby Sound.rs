@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>Screen Verif - Electronics  Gadgets</name>
+   <name>Objek - LED TV 43 Inch Smart TV TCL 43E3 UHD 4K Dolby Sound</name>
    <tag></tag>
-   <elementGuidId>be7fe604-c9f4-40c8-a639-0976ed7ec325</elementGuidId>
+   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -12,23 +12,31 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.TextView</value>
-      <webElementGuid>91a1a437-13fd-446d-b2a6-dd3e5dadd5ff</webElementGuid>
+      <webElementGuid>5edb50ab-e1d6-4ba8-9c08-9fefa79269e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>1</value>
-      <webElementGuid>b37ba3e4-189d-485f-af39-76cb128055ea</webElementGuid>
+      <value>0</value>
+      <webElementGuid>53d72b33-a726-4034-a6d6-32067b2e6222</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Electronics &amp; Gadgets</value>
-      <webElementGuid>fa64c502-4881-4996-bc67-e69bc1dc3c27</webElementGuid>
+      <value>LED TV 43 Inch Smart TV TCL 43E3 UHD 4K Dolby Sound</value>
+      <webElementGuid>23fd8854-551f-4cad-a213-34e6cea0652b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>resource-id</name>
+      <type>Main</type>
+      <value>com.solodroid.solomerce:id/product_name</value>
+      <webElementGuid>3a737b8b-21fd-4990-932f-676e640fdd12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,7 +44,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.solodroid.solomerce</value>
-      <webElementGuid>6cc6afcd-586b-41c3-a854-e95071abcb30</webElementGuid>
+      <webElementGuid>bddbcfca-87b7-4ea3-a07d-522e4eb9cc02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +52,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>37796eee-401b-4a24-8811-581a11295a93</webElementGuid>
+      <webElementGuid>e1d51e5d-26df-48e8-99de-e41c7ea9aba8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +60,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>0e4cab73-9078-4ea8-8c14-e7a1a35c0380</webElementGuid>
+      <webElementGuid>7f85673e-8de4-4f6a-bc39-a3025d281aa8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,7 +68,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>da0ebf0c-4f98-4b83-920e-4b6e76a5387c</webElementGuid>
+      <webElementGuid>4ed2ef0c-9605-489d-99fb-350b89193b21</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,7 +76,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>73c00391-63ac-42d7-adc6-8e4cbd1f7e74</webElementGuid>
+      <webElementGuid>5929cd9e-5d69-4ecd-9cff-3d04ccc1df21</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,7 +84,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f9e8040a-3290-4168-98a0-9d199fa3cc68</webElementGuid>
+      <webElementGuid>9519301d-1878-498b-bbdb-7998c9264306</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,7 +92,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a1710e88-e919-43fa-8c25-233fb6637758</webElementGuid>
+      <webElementGuid>79f4fb42-31eb-4f24-97f4-c586efdf8db0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,7 +100,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>d5bf59ab-677e-48c8-9ac4-1f2e148d079a</webElementGuid>
+      <webElementGuid>2ff25ce7-5af9-4c99-90ee-5a7f5b88dfb5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -100,7 +108,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e1517910-e7d0-42e8-b082-1300b140317d</webElementGuid>
+      <webElementGuid>d022584d-ceb6-46b2-8ccd-ced1e90c0245</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -108,7 +116,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a130a3f1-72cb-4073-90fc-150e26f4f891</webElementGuid>
+      <webElementGuid>b6e3dadd-14f6-4055-a341-78bddfd1eecc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -116,47 +124,47 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a6d8114d-f007-4e83-8b44-4b80073014f6</webElementGuid>
+      <webElementGuid>ffc2a792-118f-429d-90cf-73fb9e8a5192</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>198</value>
-      <webElementGuid>af43ad69-605b-4eb3-b8db-9279b9d068a4</webElementGuid>
+      <value>39</value>
+      <webElementGuid>6a5deddf-5910-4130-b0d7-99290645abb0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>128</value>
-      <webElementGuid>89a77ff1-b3a0-4801-95fc-83ac04ea5077</webElementGuid>
+      <value>2011</value>
+      <webElementGuid>d1c286fc-4ab8-4679-b95b-4c683189a8cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>540</value>
-      <webElementGuid>40a5e6c6-d0a7-4eaf-8c00-805fa57d1c6f</webElementGuid>
+      <value>470</value>
+      <webElementGuid>039d519f-dfdc-482a-b884-062c4a499c2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>74</value>
-      <webElementGuid>920afe96-b1dc-40f3-ab0f-d9a4bb1b27df</webElementGuid>
+      <value>111</value>
+      <webElementGuid>736bdcbf-918f-497a-ace4-bd73d00ec12d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[198,128][738,202]</value>
-      <webElementGuid>8a1c93ac-8158-467e-b7f9-db10061b59de</webElementGuid>
+      <value>[39,2011][509,2122]</value>
+      <webElementGuid>cab89895-d555-4d46-8b6a-cbc602487aa4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -164,16 +172,16 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>9421cd0f-5a50-4ddd-a83c-8cab13a05304</webElementGuid>
+      <webElementGuid>bfc5de6b-5b78-4259-bc77-c2a197ea6bd5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.view.ViewGroup[1]/android.widget.TextView[1]</value>
-      <webElementGuid>e2eb58f8-d236-4155-a020-95951519ab33</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.view.ViewGroup[2]/android.support.v7.widget.RecyclerView[1]/android.widget.FrameLayout[5]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]</value>
+      <webElementGuid>1a5d6a45-a9a7-4ade-b04d-de814f614d44</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.TextView' and (@text = 'Electronics &amp; Gadgets' or . = 'Electronics &amp; Gadgets')]</locator>
-   <locatorStrategy>ACCESSIBILITY</locatorStrategy>
+   <locator>//*[@class = 'android.widget.TextView' and (@text = 'LED TV 43 Inch Smart TV TCL 43E3 UHD 4K Dolby Sound' or . = 'LED TV 43 Inch Smart TV TCL 43E3 UHD 4K Dolby Sound') and @resource-id = 'com.solodroid.solomerce:id/product_name']</locator>
+   <locatorStrategy>ATTRIBUTES</locatorStrategy>
 </MobileElementEntity>
