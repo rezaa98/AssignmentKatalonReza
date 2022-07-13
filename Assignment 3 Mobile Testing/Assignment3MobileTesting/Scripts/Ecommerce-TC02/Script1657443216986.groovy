@@ -23,7 +23,7 @@ WebUI.comment('Start Aplication Ecommerce Android')
 
 Mobile.startExistingApplication(GlobalVariable.bundleID)
 
-Mobile.waitForElementPresent(findTestObject('Object Repository/Cek Profile/Verify Screen - E-Commerce Android App'), GlobalVariable.timeOUT, 
+Mobile.waitForElementPresent(findTestObject('Cek Profile/Verify Screen - E-Commerce Android App'), GlobalVariable.timeOUT, 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.comment('Run If statement')
@@ -33,19 +33,17 @@ if (Mobile.verifyElementNotExist(findTestObject('Object Repository/Cek Profile/V
     Mobile.tap(findTestObject('Object Repository/Checkout/Button Back'), GlobalVariable.timeOUT)
 }
 
-Mobile.tap(findTestObject('Object Repository/Cek Profile/android.widget.ImageView'), GlobalVariable.timeOUT)
+Mobile.tap(findTestObject('Cek Profile/android.widget.ImageView'), GlobalVariable.timeOUT)
 
 WebUI.comment('Check if element is visible or not')
 
-Mobile.verifyElementVisible(findTestObject('Object Repository/Cek Profile/VERIF SCREEN - Profile'), GlobalVariable.timeOUT, 
-    FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Cek Profile/VERIF SCREEN - Profile'), GlobalVariable.timeOUT, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Cek Profile/MENU - ORDER HISTORY'), GlobalVariable.timeOUT)
+Mobile.tap(findTestObject('Cek Profile/MENU - ORDER HISTORY'), GlobalVariable.timeOUT)
 
 Mobile.delay(GlobalVariable.timeOUT)
 
-Mobile.verifyElementVisible(findTestObject('Object Repository/Cek Profile/VERIF SCREEN - Order History'), GlobalVariable.timeOUT, 
-    FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Cek Profile/VERIF SCREEN - Order History'), GlobalVariable.timeOUT, FailureHandling.STOP_ON_FAILURE)
 
 device_Height = Mobile.getDeviceHeight()
 
@@ -65,7 +63,8 @@ if (Mobile.verifyElementNotExist(findTestObject('Object Repository/Cek Profile/O
 
     Mobile.verifyElementExist(findTestObject('Object Repository/Cek Profile/ORDER HISTORY - ZONK TEXT'), GlobalVariable.timeOUT, 
         FailureHandling.CONTINUE_ON_FAILURE // akan menjalankan fungsi else if ketika order history berisi 1
-        ) //akan menjalankan fungsi else ketika oder history lebih dari 1
+        //akan menjalankan fungsi else ketika oder history lebih dari 1
+        )
 } else if (Mobile.verifyElementNotExist(findTestObject('Object Repository/Cek Profile/ORDER HISTORY 2'), GlobalVariable.timeOUT, 
     FailureHandling.OPTIONAL)) {
     Mobile.verifyElementExist(findTestObject('Object Repository/Cek Profile/ORDER HISTORY 1'), GlobalVariable.timeOUT)
@@ -87,5 +86,5 @@ if (Mobile.verifyElementNotExist(findTestObject('Object Repository/Cek Profile/O
     Mobile.tapAtPosition(pointW, pointH)
 }
 
-Mobile.tap(findTestObject('Object Repository/Cek Profile/android.widget.ImageButton'), GlobalVariable.timeOUT)
+Mobile.tap(findTestObject('Cek Profile/android.widget.ImageButton'), GlobalVariable.timeOUT)
 

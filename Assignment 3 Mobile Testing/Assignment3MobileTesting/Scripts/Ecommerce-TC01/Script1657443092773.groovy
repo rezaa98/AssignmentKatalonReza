@@ -21,9 +21,11 @@ import org.openqa.selenium.Keys as Keys
 //Mobile.startApplication(appFile, true)
 WebUI.comment('Start Aplication Ecommerce Android')
 
+WebUI.callTestCase(findTestCase('Start APP'), [:], FailureHandling.STOP_ON_FAILURE)
+
 Mobile.startExistingApplication(GlobalVariable.bundleID)
 
-Mobile.waitForElementPresent(findTestObject('Object Repository/Cek Profile/Verify Screen - E-Commerce Android App'), GlobalVariable.timeOUT, 
+Mobile.waitForElementPresent(findTestObject('Cek Profile/Verify Screen - E-Commerce Android App'), GlobalVariable.timeOUT, 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.comment('Run If statement')
@@ -33,10 +35,9 @@ if (Mobile.verifyElementNotExist(findTestObject('Object Repository/Cek Profile/V
     Mobile.tap(findTestObject('Object Repository/Checkout/Button Back'), GlobalVariable.timeOUT)
 }
 
-Mobile.tap(findTestObject('Object Repository/Cek Profile/android.widget.ImageView'), GlobalVariable.timeOUT)
+Mobile.tap(findTestObject('Cek Profile/android.widget.ImageView'), GlobalVariable.timeOUT)
 
-Mobile.verifyElementVisible(findTestObject('Object Repository/Cek Profile/VERIF SCREEN - Profile'), GlobalVariable.timeOUT, 
-    FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Cek Profile/VERIF SCREEN - Profile'), GlobalVariable.timeOUT, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.comment('Do Looping')
 
